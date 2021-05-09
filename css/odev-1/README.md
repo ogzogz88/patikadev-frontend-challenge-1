@@ -10,7 +10,7 @@ Sıfırdan, basit, birden çok sayfalı html/css içeren web sayfaları oluştur
 git clone https://github.com/ogzogz88/kodluyoruzilkrepo.git
 ```
 
-Fontawesome'ı loca olarak tüklemeyi unutmayın.
+Fontawesome'ı local olarak yüklemeyi unutmayın.(css/odev-1/css/fontawesome-free-5.15.3-web/)
 
 ## Usage
 
