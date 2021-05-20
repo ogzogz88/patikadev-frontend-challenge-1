@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asian Kitchen</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Zilla+Slab&display=swap" rel="stylesheet" />
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <section class="menu">
+            <!-- title -->
+            <div class="title">
+                <h2>Asian Kitchen's Menu</h2>
+            </div>
+            <!-- filter buttons-->
+            <div class="d-block text-center d-sm-flex justify-content-center align-items-center mt-5">
+                <button id="All" type="button" onclick="renderDish(this.id)"
+                    class="btn btn-sm btn-outline-secondary mb-1 ms-2 me-2 ">All</button>
+                <button id="Korea" type="button" onclick="renderDish(this.id)"
+                    class="btn btn-sm btn-outline-secondary mb-1 ms-2 me-2">Korea</button>
+                <button id="Japan" type="button" onclick="renderDish(this.id)"
+                    class="btn btn-sm btn-outline-secondary mb-1 ms-2 me-2">Japan</button>
+                <button id="China" type="button" onclick="renderDish(this.id)"
+                    class="btn btn-sm btn-outline-secondary mb-1 ms-2 me-2">China</button>
+            </div>
+            <hr class="hr-asian">
+            <!-- menu items -->
+            <!-- single-item -->
+            <div id="dishes" class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+            </div>
+            <!-- end of single item -->
+            <hr class="hr-asian">
+        </section>
+    </div>
+    <!--footer-->
+    <footer>
+        <small>Asian Kitchen - All Rights Reserved</small>
+    </footer>
+    <!--footer end-->
+    <script src="./app.js"></script>
+</body>
+
+</html>

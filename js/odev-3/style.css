@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ff6a23;
+}
+.menu {
+  margin-top: 40px;
+}
+
+/* .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.btn-item {
+  margin-left: 15px;
+} */
+
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid black;
+  border-radius: 10px;
+}
+.menu-items {
+  display: flex;
+  margin: 20px 0;
+}
+.menu-info {
+  margin-left: 20px;
+  width: 100%;
+}
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+h4 {
+  color: #e00a00;
+}
+
+.menu-text {
+  padding-top: 20px;
+}
+
+/*  css addition by ogzogz88*/
+:root {
+  --primary-color: #ff6a23;
+  --light-color: #fefefe;
+  --dark-color: #48086a;
+}
+button {
+  min-width: 100px;
+}
+button:hover,
+button.chosen {
+  background: var(--primary-color) !important;
+  border-color: var(--light-color) !important;
+  color: var(--light-color) !important;
+}
+.hr-asian {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double var(--primary-color);
+  color: var(--light-color);
+  text-align: center;
+  margin: 3rem 0;
+}
+.hr-asian:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: var(--light-color);
+  color: var(--primary-color);
+}
+
+.card-img-top {
+  height: 250px;
+  border-radius: 2rem;
+}
+.card {
+  border-radius: 2rem 2rem 0.25rem 0.25rem;
+}
+.card-footer {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 1rem 1rem 0.25rem 0.25rem !important;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 1rem;
+}
